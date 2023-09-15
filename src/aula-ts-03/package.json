@@ -1,10 +1,10 @@
 {
-  "name": "curso-typescript",
+  "name": "aula-ts-03",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "nodemon src/aula-ts-10/index.ts",
+    "dev": "nodemon src/index.ts",
     "start": "node dist/index.js"
   },
   "keywords": [],
@@ -13,13 +13,6 @@
   "devDependencies": {
     "nodemon": "^3.0.1",
     "ts-node": "^10.9.1",
-    "tsc-alias": "^1.8.7",
-    "tsconfig-paths": "^4.2.0",
     "typescript": "^5.2.2"
-  },
-  "dependencies": {
-    "dotenv": "^16.3.1",
-    "express": "^4.18.2",
-    "pg": "^8.11.3"
   }
 }
